@@ -1,0 +1,82 @@
+body{
+    background-image: url(imagens/fundo.jpg);
+    background-size: cover;
+    color: white;
+    text-align: right;
+    margin: 65px 150px 0px 0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+}
+
+h1{
+    font-size: 100px;
+    margin-bottom: 30px;
+    padding-right: 15px;
+   
+    
+}
+
+p{
+        font-size: 30px;
+        margin: 0;
+        opacity: 0.8;   
+        padding-right: 10px; 
+}
+        
+span{
+    font-style: italic;
+    color: #aaba33;
+    background-color: white;
+    border-radius: 15%;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style: none;
+    margin-top: 40px;
+    margin-right: 210px;
+}
+
+li {
+    display: inline;
+  }
+  
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 5px;
+    color:#aaba33
+}
+
+ul li a:hover {
+    opacity: 0.8;
+  }
+  
+.description {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding-right: 30px;
+    
+}
+  
+.order {
+    text-decoration: none;
+    background-color: #aaba33;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 20%;
+    margin-right: 130px;
+}
+  
+  .order:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 640px) {
+    
+    body {
+    text-align: center;
+    }
+}
